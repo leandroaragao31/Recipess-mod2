@@ -1,10 +1,18 @@
 import React from 'react';
+import Header from './components/Header.js';
+import Main from './components/Main.js';
+import Footer from './components/Footer.js'; 
+import * as S from "./styles/Styled.js"
+import './App.css';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      
-    </div>
+    <body>
+      <S.GlobalStyles/>
+      <Header/> 
+      <Main/>
+      <Footer/>
+    </body>
   );
 }
 
